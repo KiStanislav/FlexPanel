@@ -9,10 +9,6 @@ body {
   margin: 0;
 }
 
-/* *, *:before, *:after {
-  box-sizing: inherit;
-} */
-
 .panels {
   min-height: 100vh;
   overflow: hidden;
@@ -36,15 +32,19 @@ body {
 .panel1 {
   background-image: url(img/panel1.jpg);
 }
+
 .panel2 {
   background-image: url(img/panel2.jpg);
 }
+
 .panel3 {
   background-image: url(img/panel3.jpg);
 }
+
 .panel4 {
   background-image: url(img/panel4.jpg);
 }
+
 .panel5 {
   background-image: url(img/panel5.jpg);
 }
@@ -62,12 +62,15 @@ body {
 .panel > *:first-child {
   transform: translateY(-100%);
 }
+
 .panel.open-active > *:first-child {
   transform: translateY(0);
 }
+
 .panel > *:last-child {
   transform: translateY(100%);
 }
+
 .panel.open-active > *:last-child {
   transform: translateY(0);
 }
